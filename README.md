@@ -1,0 +1,1 @@
+/Applications/Blender\ 4.0.app/Contents/MacOS/Blender '/Users/dufok/Projects/ASAP/WEY/Model/WEY_LOUNG_4.blend'  --background --python /Users/dufok/Projects/ASAP/WEY/Model/background_renred_loung_scene.py
