@@ -2,8 +2,8 @@ import bpy
 import os
 
 # Define camera and view layer pairs
-cameras = ["Camera_5"]
-view_layers = ["Scene_5"]
+cameras = ["Camera_5", "Camera_6"]
+view_layers = ["Scene_5", "Scene_6"]
 
 # Base path for saving renders
 base_path = "//Renders_2/"  # Ensure there's a trailing slash
