@@ -2,35 +2,35 @@ import bpy
 import os
 
 # Define camera and view layer pairs
-cameras = ["Camera_1", "Camera_2", "Camera_3", "Camera_4", "Camera_5"]
-view_layers = ["Layout_1", "Layout_2", "Layout_3", "Layout_4", "Layout_5"]
+cameras = ["Camera_1", "Camera_2", "Camera_4", "Camera_1", "Camera_2" ]
+view_layers = ["Layout_1", "Layout_2", "Layout_4", "Layout_1_DJ", "Layout_2_DJ"]
 
 # Base path for saving renders
-base_path = "//Render_Loung_FULL2/"  # Ensure there's a trailing slash
+base_path = "//Render_Loung_tech/"  # Ensure there's a trailing slash
 
 # Set the resolution
 bpy.context.scene.render.resolution_x = 3840
 bpy.context.scene.render.resolution_y = 2160
 
 # Set the resolution percentage (50% in this case)
-bpy.context.scene.render.resolution_percentage = 100
+bpy.context.scene.render.resolution_percentage = 20
 
 #################### PNG section #######################
-# Set the output format to PNG
+""" # Set the output format to PNG
 bpy.context.scene.render.image_settings.file_format = 'PNG'
 
 # Set the color depth to 16-bit
 bpy.context.scene.render.image_settings.color_depth = '16'
 
 # Set color mode to RGBA to include alpha channel
-bpy.context.scene.render.image_settings.color_mode = 'RGB'
+bpy.context.scene.render.image_settings.color_mode = 'RGB' """
 
 ##################### JPEG section ########################
-""" # Set the output format to PNG
+# Set the output format to PNG
 bpy.context.scene.render.image_settings.file_format = 'JPEG'
 
 # Set the quality (for JPEG format, the quality is a percentage from 0 to 100)
-bpy.context.scene.render.image_settings.quality = 90 """
+bpy.context.scene.render.image_settings.quality = 90
 
 ##################### GPU section ########################
 

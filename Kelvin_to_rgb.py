@@ -39,7 +39,7 @@ def kelvin_to_rgb_normalized(kelvin):
     return red_normalized, green_normalized, blue_normalized
 
 # Example usage
-kelvin = 3200
+kelvin = 2700
 
 rgb_normalized = kelvin_to_rgb_normalized(kelvin)
 print(rgb_normalized)
